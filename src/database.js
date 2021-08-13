@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 
-// URI=('mongodb://localhost/udemy');
-URI=('mongodb+srv://arnaldoquezada:prueba@cluster0.qd02o.mongodb.net/test');
+URI=('mongodb://localhost/udemy');
 
 
 mongoose.connect(URI,{
