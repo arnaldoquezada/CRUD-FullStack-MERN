@@ -3,10 +3,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 
-// axios.defaults.baseURL='http://localhost:4000'
-https://app-backend-fs-mern.herokuapp.com/
+axios.defaults.baseURL='http://localhost:4000'
 
-axios.defaults.baseURL='https://app-backend-fs-mern.herokuapp.com'
+// axios.defaults.baseURL='https://app-backend-fs-mern.herokuapp.com'
 
 ReactDOM.render(
   <React.StrictMode>
